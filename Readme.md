@@ -7,6 +7,7 @@ If you changed html file , loader is reload it.
 ## How to use
 
 First attach `loader.js` in your project folder.
+
 Next, require `./loader`:
 
 ```js
@@ -18,8 +19,7 @@ Next, set html_file and listening port:
 ```js
 var html_file = 'index.html';
 var port = 9000;
-	loader.reading_file(html_file,port);
-  
+	loader.reading_file(html_file,port);  
 ```
 
 
